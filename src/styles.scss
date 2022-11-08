@@ -1,0 +1,110 @@
+@import "@angular/material/theming";
+@include mat-core();
+
+.darkMode {
+    margin-left: 96%;
+}
+
+.light-mode {
+    background-color: white;
+    
+    nav {
+        background-color: lightcyan !important;
+        .nav-item {
+            background-color: lightcyan !important;
+            .dropdown-menu {
+                background-color: white !important;
+                .dropdown-item {
+                    background-color: white !important;
+                }
+                li {
+                    background-color: white !important;
+                }
+            }
+        }
+    }
+
+    .modal {
+        .modal-dialog {
+            .modal-content {
+                background-color: white !important;
+                .modal-header {
+                    background-color: lightcyan !important;
+                }
+            }
+        } 
+    }
+
+    .form-control {
+        background-color: white !important;
+    }
+
+    li {
+        background-color: lightcyan;
+    }
+}
+
+.dark-mode {
+    background-color: rgb(30, 30, 30) !important;
+    color: white;
+
+    nav {
+        background-color: rgb(60, 60, 60) !important;
+        .navbar-brand{
+            color: white;
+        }
+        .nav-link{
+            color:white !important;
+            background-color: rgb(60, 60, 60);
+          }
+        .nav-item {
+            background-color: rgb(60, 60, 60);
+            .dropdown-menu {
+                background-color: rgb(60, 60, 60) !important;
+                .dropdown-item {
+                    background-color: rgb(60, 60, 60) !important;
+                    color:white;
+                }
+                li {
+                    background-color: rgb(60, 60, 60) !important;
+                }
+            }
+        }
+        .navbar-toggler-icon{
+          filter: invert(99%) sepia(1%) saturate(4214%) hue-rotate(223deg) brightness(118%) contrast(100%);
+        }
+    }
+
+    .modal {
+        .modal-dialog {
+            .modal-content {
+                background-color: rgb(30, 30, 30) !important;
+                color: white;
+                .modal-header {
+                    background-color:  rgb(60, 60, 60) !important;
+                    color: white;
+                }
+            }
+        } 
+    }
+
+    .form-group {
+        background-color: (30, 30, 30) !important;
+        color: white !important;
+        .form-control {
+            background-color: rgb(45, 45, 45);
+            color: white;
+        }
+        ::placeholder{
+            color: white;
+        }
+    }
+
+    li {
+        background-color: rgb(45, 45, 45);
+        color: white;
+    }
+    .enc {
+        background-color: rgb(45, 45, 45) !important;
+    }
+}
