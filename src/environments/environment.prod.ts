@@ -1,12 +1,12 @@
 export const environment = {
   production: true,
   firebaseConfig : {
-    apiKey: "AIzaSyAeIHxZZzLcjYrGbHOmF-OUKiCwr8DZ8qs",
-    authDomain: "angulartutorial-c6a53.firebaseapp.com",
-    projectId: "angulartutorial-c6a53",
-    storageBucket: "angulartutorial-c6a53.appspot.com",
-    messagingSenderId: "870225859421",
-    appId: "1:870225859421:web:4e6522ae985c6863074eb4",
-    measurementId: "G-KSE4N1NQFS"
+    apiKey: "AIzaSyCDNcDmW3HfKzRu4SEzNqxFLWZMGLHBZWc",
+    authDomain: "tutorial-aaefa.firebaseapp.com",
+    projectId: "tutorial-aaefa",
+    storageBucket: "tutorial-aaefa.appspot.com",
+    messagingSenderId: "687513474684",
+    appId: "1:687513474684:web:abb41fa90c9a45a3459bf9",
+    measurementId: "G-FWR5GQQJYK"
   }
 };
